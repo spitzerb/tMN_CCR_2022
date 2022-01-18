@@ -1,0 +1,141 @@
+---
+title: "oncoprint"
+output: html_document
+---
+
+ Generates Fig 1a (oncoprint)
+     Output should go in directory "FIGURES" in the repositry root directory
+
+ Copyright (C) 2021 Barbara Spitzer - spitzerb@mskcc.org
+ This program is free software: you can redistribute it and/or modify 
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or 
+  any later version.
+
+ This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F,cache=T)
+
+library(tidyverse)
+library(ComplexHeatmap)
+```
+
+```{r}
+##unformatted mutation data
+maindf=readRDS("../DATA/173_frozen.rds") %>% mutate(TARGET_NAME=substr(TARGET_NAME,1,10)) %>% rowwise %>% 
+        mutate(GENE=ifelse(str_detect(GENE,"KMT2A")|GENE=="",as.character(VARIANT),as.character(GENE))) %>% 
+        mutate(GENE=ifelse(str_detect(GENE,"11q23 rearr"),"11q23 rearrangement",as.character(GENE))) %>% as.data.frame()
+maindf[which(maindf$ANNOTATION=="somatic | unknown"),'GENE']=NA
+maindf[which(maindf$ANNOTATION=="somatic | unknown"),'VAR_TYPE']=NA
+maindf[which(maindf$VAR_TYPE=="fusion"),'VAR_TYPE']="SVs"
+maindf[which(maindf$VARIANT=="t(3;8)(q26;q24)"),'GENE']="t(3;8)(q26;q24)"
+
+pretmn_samps=readRDS("../DATA/173_frozen.rds") %>% filter(sample.timepoint.2=="premalignant") %>% select(TARGET_NAME)
+
+##unformatted copy number data
+cna_df=readRDS("../DATA/FACETS_TIMELINES.rds") %>% mutate(GENE=paste0(chrom,arm),patient=paste0("I-H-",patient)) %>% filter(!patient=="I-H-118740",!sample %in% pretmn_samps$TARGET_NAME)
+
+svs=read.table(file="../DATA/DATA_FILES/p173_variants_SVs_for_timeplots_CLEAN.txt",sep="\t",header=T)
+svs$CG_EFFECT <- sapply(CG$CG_REDUCED, FUN=function(x) { e=substr(x,nchar(as.character(x)),nchar(as.character(x)))
+                                                        ifelse(e=="-", "DEL",ifelse(e=="+","GAIN",NA)) })
+svs=svs %>% filter(Algorithm=="CG_PUB",variant_type=="aneuploidy",!CG_REDUCED %in% c("","del(ETV6)","11q23-","del(MLL)"),!PID %in% c("I-H-107652","I-H-118739","I-H-118740"),CLONAL==TRUE,!TARGET_NAME %in% pretmn_samps$TARGET_NAME) %>% 
+    mutate(VAR_TYPE=ifelse(CG_EFFECT=="DEL","del", ifelse(CG_EFFECT=="GAIN","amp","")),CG_ARM=paste0(chr,arm)) %>% select(TARGET_NAME=PID,GENE=CG_ARM,VAR_TYPE) %>% unique()
+```
+
+```{r}
+###format into matrix of mutation data
+format_main=maindf %>% filter(!sample.timepoint.2=="premalignant") %>% select(TARGET_NAME,GENE,VAR_TYPE) %>% unique()
+format_cna=cna_df %>% select(TARGET_NAME=patient,GENE,VAR_TYPE=type)
+format_svs=svs %>% select(TARGET_NAME,GENE,VAR_TYPE)
+format=rbind(format_main,format_cna,format_svs) %>% unique() %>% as.data.frame()
+
+tmp=reshape(format, idvar = "TARGET_NAME", timevar = "GENE", direction = "wide")
+rownames(tmp)=tmp$TARGET_NAME
+tmp=tmp[2:ncol(tmp)]
+
+x=gsub("VAR_TYPE.","",colnames(tmp))
+
+colnames(tmp)=x
+tmp=as.matrix(tmp)
+tmp=t(tmp)
+tmp[(is.na(tmp))]=""
+
+```
+
+```{r}
+#functions to define colors for mutation types and background
+
+col = c("sub" = "lightcyan3", "indel" = "lightcyan3","SVs"="darkorange","del"="lightsteelblue","amp"="lightsteelblue","loh"="lightsteelblue")
+
+alter_fun = list(
+    background = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = "gray95", col = NA))
+    },
+    sub = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["sub"], col = NA))
+    },
+        indel = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["indel"], col = NA))
+    },
+    SVs = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["SVs"], col = NA))
+    },
+                loh = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["loh"], col = NA))
+    },
+            del = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["del"], col = NA))
+        },
+            amp = function(x, y, w, h) {
+        grid.rect(x, y, w-unit(2, "pt"), h-unit(2, "pt"), 
+            gp = gpar(fill = col["amp"], col = NA))
+            }
+)
+
+heatmap_legend_param = list(title = "alterations", at = c("sub", "indel", "SVs","loh","del","amp"), 
+        labels = c("sub", "indel", "SVs","loh","del","amp"))
+```
+
+```{r}
+#get column and row orders
+
+colord=maindf[match(colnames(tmp),maindf$TARGET_NAME),'patient.category.2']
+colord=factor(colord,levels=c("transformation","transient","control"))
+
+roword=maindf[match(rownames(tmp),maindf$GENE),'VAR_TYPE']
+roword=gsub("sub","mutations",roword)
+roword=gsub("indel","mutations",roword)
+roword[which(is.na(roword))]="CNAs"
+roword=factor(roword,levels=c("mutations","SVs","CNAs"))
+```
+
+```{r}
+
+x=c("I-H-118732","I-H-107649", "I-H-118727" ,"I-H-118731","I-H-118730","I-H-118741" ,"I-H-118742", "I-H-118729","I-H-118734","I-H-118736","I-H-133430", "I-H-133431","I-H-107650", "I-H-107651" ,"I-H-118725", "I-H-118726" , "I-H-118728", "I-H-118733" ,"I-H-118735", "I-H-118737", "I-H-118738" , "I-H-133427",
+"I-H-133429" , "I-H-133432" ,"I-H-133433", "I-H-133434" ,"I-H-133435", "I-H-133436", "I-H-133437", "I-H-133522",
+"I-H-133523", "I-H-133882", "I-H-133883", "I-H-133884" ,"I-H-133885" ,"I-H-133886" ,"I-H-133887" ,"I-H-133888" ,"I-H-133889", "I-H-133890",
+"I-H-133891" ,"I-H-133892" ,"I-H-133893", "I-H-133894", "I-H-133895", "I-H-133896" ,"I-H-133897", "I-H-133898", "I-H-133899", "I-H-133900",
+"I-H-133901", "I-H-133902")
+
+```
+
+
+```{r,fig.height=12,fig.width=12}
+
+###oncoprint
+pdf("../FIGURES/fig1a_oncoprint.pdf")
+oncoPrint(tmp,alter_fun=alter_fun, col=col, remove_empty_columns = F,remove_empty_rows = T,show_pct = F,row_names_gp = gpar(fontsize = 8),show_column_names = F, row_split=roword, column_order = x, column_split = colord, bottom_annotation = HeatmapAnnotation(group=colord, col = list(group = c("transformation" = "thistle4", "transient" = "olivedrab3", "control" = "lightsalmon"))), row_gap = unit(4, "mm"), column_gap=unit(4, "mm"), top_annotation = NULL,right_annotation = NULL,border=F)
+dev.off()
+
+```

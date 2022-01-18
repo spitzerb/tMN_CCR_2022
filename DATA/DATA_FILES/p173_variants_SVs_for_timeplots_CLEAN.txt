@@ -1,0 +1,306 @@
+TARGET_NAME	PID	sample_time	sample_type	pt_type	variant	variant_type	Algorithm 	CG_REDUCED	chr	arm	CLONAL
+I-H-107649-T1	I-H-107649	25.12		transformation		none	CG_PUB		NA		NA
+I-H-107649-T2	I-H-107649	52.47		transformation	7q-		clinical CG				FALSE
+I-H-107649-T2	I-H-107649	52.47		transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-107649-T3	I-H-107649	2.76		transformation		none	CG_PUB		NA		NA
+I-H-107649-T4	I-H-107649	3.88		transformation		none	CG_PUB		NA		NA
+I-H-107649-T5	I-H-107649	19.23		transformation		none	CG_PUB		NA		NA
+I-H-107650-T1	I-H-107650			transformation		none	CG_PUB		NA		NA
+I-H-107650-T2	I-H-107650	6.8		transient	monosomy 7		clinical CG				
+I-H-107650-T2	I-H-107650	6.8		transient	7p-	aneuploidy	CG_PUB	7p-	7	p	FALSE
+I-H-107650-T2	I-H-107650	6.8		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-107650-T3	I-H-107650	2.4		transient	5q-.monosomy 7		clinical CG				
+I-H-107650-T3	I-H-107650	2.4		transient	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-107650-T3	I-H-107650	2.4		transient	7p-	aneuploidy	CG_PUB	7p-	7	p	TRUE
+I-H-107650-T3	I-H-107650	2.4		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-107650-T4	I-H-107650	32.35		transient		none	clinical CG				
+I-H-107651-T1	I-H-107651	53.81		transient	5q-		clinical CG				
+I-H-107651-T1	I-H-107651	53.81		transient	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-107651-T2	I-H-107651			transient		none	CG_PUB		NA		NA
+I-H-107651-T3	I-H-107651	24.98		transient	dup(1q25).del 15q		clinical CG				
+I-H-107651-T3	I-H-107651	24.98		transient	15q-	aneuploidy	CG_PUB	15q-	15	q	TRUE
+I-H-107651-T3	I-H-107651	24.98		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-107651-T4	I-H-107651	32.35		transient	dup(1q25).5q-		clinical CG				
+I-H-107651-T4	I-H-107651	32.35		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-107651-T4	I-H-107651	32.35		transient	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-107651-T5	I-H-107651			transient		none	CG_PUB		NA		NA
+I-H-107651-T6	I-H-107651	38.66		transient	dup(1q25)		clinical CG				
+I-H-107651-T6	I-H-107651	38.66		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	FALSE
+I-H-107651-T7	I-H-107651			transient		none	CG_PUB		NA		NA
+I-H-107652-T1	I-H-107652			other		none	CG_PUB		NA		NA
+I-H-107652-T2	I-H-107652	61.64		other	7q-		clinical CG				
+I-H-107652-T2	I-H-107652	61.64		other	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-107652-T3	I-H-107652			other		none	CG_PUB		NA		NA
+I-H-107652-T4	I-H-107652			other		none	CG_PUB		NA		NA
+I-H-107652-T5	I-H-107652			other		none	CG_PUB		NA		NA
+I-H-118725-T1	I-H-118725			transformation		none	clinical CG				
+I-H-118725-T2	I-H-118725	69.59		transformation		none	CG_PUB		NA		NA
+I-H-118725-T3	I-H-118725	61.67		transformation		none	CG_PUB		NA		NA
+I-H-118725-T4	I-H-118725	90.11		transformation		none	clinical CG				
+I-H-118725-T5	I-H-118725	11.21		transformation		none	clinical CG				
+I-H-118725-T6	I-H-118725	48.32		transformation		none	clinical CG				
+I-H-118725-T7	I-H-118725	78.14		transformation	7q-		clinical CG				
+I-H-118725-T7	I-H-118725	78.14	premalignant	transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-118726-T1	I-H-118726	26.63		transformation	7q-		clinical CG				
+I-H-118726-T1	I-H-118726	26.63	tMN	transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-118726-T2	I-H-118726	16.93		transformation		none	CG_PUB		NA		NA
+I-H-118726-T3	I-H-118726			transformation		none	CG_PUB		NA		NA
+I-H-118726-T4	I-H-118726			transformation		none	clinical CG				
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	fusion	clinical CG				
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	der(1)t(1;3)(q42;q25)	fusion	CG_PUB	der(1)t(1;3)	NA		TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	5q-	5	q	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	6q-	6	q	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	7p-	7	p	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	17p+	17	p	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	18p-	18	p	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	18q-	18	q	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	20p-	20	p	TRUE
+I-H-118727-T1	I-H-118727	30.74	tMN	transformation	"der(1)t(1;3)(q42;q25),del(5)(q22q35),del(6)(q21), add(17)(p12),-18,-20"	aneuploidy	CG_PUB	20q-	20	q	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	"complex karyotype: 44-46,X,-Y,add(1)(q42),del(5)(22q35),del(6)(q21),-18,-19"	aneuploidy	clinical CG				
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	Y-	aneuploidy	CG_PUB	Y-	Y		TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	5q-	aneuploidy	CG_PUB	5q-	5	q	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	6q-	aneuploidy	CG_PUB	6q-	6	q	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	-18	aneuploidy	CG_PUB	18p-	18	p	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	-18	aneuploidy	CG_PUB	18q-	18	q	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	-19	aneuploidy	CG_PUB	19p-	19	p	TRUE
+I-H-118727-T4	I-H-118727	26.36	premalignant	transformation	-19	aneuploidy	CG_PUB	19q-	19	q	TRUE
+I-H-118728-T1	I-H-118728	50.43	tMN	transformation	t(3;8)(q26;q24)	fusion	CG_PUB	t(3;8)	NA		TRUE
+I-H-118728-T1	I-H-118728	50.43	tMN	transformation	t(3;8)(q26.2;q24.1)	fusion	clinical CG				
+I-H-118728-T7	I-H-118728	47.4	premalignant	transformation	t(3;8)(q26;q24)	fusion	CG_PUB	t(3;8)	NA		TRUE
+I-H-118728-T7	I-H-118728	47.4	premalignant	transformation	t(3;8)(q26.2;q24.1)	fusion	clinical CG				
+I-H-118728-T8	I-H-118728		tMN	transformation	t(3;8)(q26;q24)	fusion	CG_PUB	t(3;8)	NA		TRUE
+I-H-118728-T8	I-H-118728		tMN	transformation	t(3;8)(q26.2;q24.1)	fusion	clinical CG				
+I-H-118729-T1	I-H-118729	57.23	tMN	transformation	"t(4;11)(p12;q23).t(4;11)(p12;q23).-16,add(18)(q23)"	fusion	clinical CG				
+I-H-118729-T1	I-H-118729	57.23	tMN	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118729-T1	I-H-118729	57.23	tMN	transformation	-16	aneuploidy	CG_PUB	16p-	16	p	TRUE
+I-H-118729-T1	I-H-118729	57.23	tMN	transformation	-16	aneuploidy	CG_PUB	16q-	16	q	TRUE
+I-H-118729-T1	I-H-118729	57.23	tMN	transformation	18q+	aneuploidy	CG_PUB	18q+	18	q	TRUE
+I-H-118729-T1	I-H-118729	57.23		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118729-T3	I-H-118729	25.71	premalignant	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118729-T3	I-H-118729	25.71	premalignant	transformation	t(2;9)(q21;q34)	fusion	CG_PUB	t(2;9)	NA		TRUE
+I-H-118729-T3	I-H-118729	25.71	premalignant	transformation	"t(4;11)(p12;q23),t(2;9)(q21;q34).t(4;11)(p12;q23)"	fusion	clinical CG				
+I-H-118729-T3	I-H-118729	25.71		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118729-T4	I-H-118729	45.46	premalignant	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118729-T4	I-H-118729	45.46	premalignant	transformation	t(4;11)(p12;q23)	fusion	clinical CG				
+I-H-118729-T4	I-H-118729	45.46		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118729-T5	I-H-118729	54.17	premalignant	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118729-T5	I-H-118729	54.17	premalignant	transformation	-16	aneuploidy	CG_PUB	16p-	16	p	TRUE
+I-H-118729-T5	I-H-118729	54.17	premalignant	transformation	-16	aneuploidy	CG_PUB	16q-	16	q	TRUE
+I-H-118729-T5	I-H-118729	54.17	premalignant	transformation	18q+	aneuploidy	CG_PUB	18q+	18	q	TRUE
+I-H-118729-T5	I-H-118729	54.17	premalignant	transformation	"t(4;11)(p12;q23).t(4;11)(p12;q23).-16,add(18)(q23)"	fusion	clinical CG				
+I-H-118729-T5	I-H-118729	54.17		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118729-T7	I-H-118729		premalignant	transformation	del(4)(p14).dup(11)(q13q23)		clinical CG				
+I-H-118729-T7	I-H-118729		premalignant	transformation	4p-	aneuploidy	CG_PUB	4p-	4	p	TRUE
+I-H-118729-T7	I-H-118729		premalignant	transformation	11q+	aneuploidy	CG_PUB	11q+	11	q	TRUE
+I-H-118729-T8	I-H-118729	39.68	premalignant	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118729-T8	I-H-118729	39.68	premalignant	transformation	11q23 rearr	fusion	clinical CG				
+I-H-118729-T8	I-H-118729	39.68		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118730-T1	I-H-118730	35.9		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118730-T2	I-H-118730	11.8		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118730-T4	I-H-118730	21.01		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118730-T5	I-H-118730	26.92		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118731-T1	I-H-118731		tMN	transformation	5q-	aneuploidy	CG_PUB	5q-	5	q	TRUE
+I-H-118731-T1	I-H-118731			transformation	5q-		clinical CG				
+I-H-118731-T2	I-H-118731			transformation		none	clinical CG				
+I-H-118731-T3	I-H-118731			transformation		none	clinical CG				
+I-H-118731-T4	I-H-118731			transformation		none	CG_PUB		NA		NA
+I-H-118731-T5	I-H-118731		premalignant	transformation	inv(7)(p15q35).5q-		clinical CG				
+I-H-118731-T5	I-H-118731		premalignant	transformation	inv(7)(p15q35)	fusion	CG_PUB	inv(7)	NA		TRUE
+I-H-118731-T5	I-H-118731		premalignant	transformation	5q-	aneuploidy	CG_PUB	5q-	5	q	TRUE
+I-H-118732-T1	I-H-118732	89.84		transformation	monosomy 7.del(ETV6).del(17)		clinical CG				
+I-H-118732-T1	I-H-118732	89.84	tMN	transformation	-17	aneuploidy	CG_PUB	17p-	17	p	TRUE
+I-H-118732-T1	I-H-118732	89.84	tMN	transformation	-17	aneuploidy	CG_PUB	17q-	17	q	TRUE
+I-H-118732-T1	I-H-118732	89.84	tMN	transformation	7p-	aneuploidy	CG_PUB	7p-	7	p	TRUE
+I-H-118732-T1	I-H-118732	89.84	tMN	transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-118732-T1	I-H-118732	89.84	tMN	transformation	del(ETV6)	aneuploidy	CG_PUB	del(ETV6)	d		TRUE
+I-H-118732-T2	I-H-118732	2.96		transformation		none	CG_PUB		NA		NA
+I-H-118732-T3	I-H-118732	32.87		transformation		none	clinical CG				
+I-H-118732-T4	I-H-118732	49.9		transformation		none	clinical CG				
+I-H-118733-T1	I-H-118733	218.01	tMN	transformation	der(7)t(7;21)(p15;q11).del(20q)	fusion	clinical CG				
+I-H-118733-T1	I-H-118733	218.01	tMN	transformation	der(7)t(7;21)	fusion	CG_PUB	der(7)t(7;21)	NA		TRUE
+I-H-118733-T1	I-H-118733	218.01	tMN	transformation	20q-	aneuploidy	CG_PUB	20q-	20	q	FALSE
+I-H-118733-T2	I-H-118733	155.03		transformation		none	clinical CG				
+I-H-118733-T3	I-H-118733	201.18		transformation		none	CG_PUB		NA		NA
+I-H-118733-T4	I-H-118733	15.52		transformation		none	CG_PUB		NA		NA
+I-H-118733-T5	I-H-118733	2.43		transformation		none	CG_PUB		NA		NA
+I-H-118733-T6	I-H-118733	76.96		transformation		none	CG_PUB		NA		NA
+I-H-118733-T7	I-H-118733	222.35		transformation		none	clinical CG				
+I-H-118734-T1	I-H-118734	13.12		transformation	del(11)(q23).del(18)(p11.2)		clinical CG				
+I-H-118734-T1	I-H-118734	13.12	tMN	transformation	11q23-	aneuploidy	CG_PUB	11q23-	11		TRUE
+I-H-118734-T1	I-H-118734	13.12	tMN	transformation	del(18p)	aneuploidy	CG_PUB	18p-	18	p	TRUE
+I-H-118734-T1	I-H-118734	13.12	tMN	transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118734-T2	I-H-118734			transformation		none	CG_PUB		NA		NA
+I-H-118734-T3	I-H-118734	10.82	premalignant	transformation	11q23-	aneuploidy	CG_PUB	11q23-	11		TRUE
+I-H-118734-T3	I-H-118734	10.82	premalignant	transformation	11q23-		clinical CG				
+I-H-118734-T3	I-H-118734	10.82	premalignant	transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118734-T4	I-H-118734	11.74		transformation		none	CG_PUB		NA		NA
+I-H-118735-T1	I-H-118735	13.28		transformation		none	clinical CG				
+I-H-118735-T2	I-H-118735	8.28		transformation		none	clinical CG				
+I-H-118735-T3	I-H-118735	9.83		transformation		none	CG_PUB		NA		NA
+I-H-118735-T4	I-H-118735	11.9		transformation		none	CG_PUB		NA		NA
+I-H-118736-T1	I-H-118736	10.91	tMN	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118736-T1	I-H-118736	10.91	tMN	transformation	11q23 rearr	fusion	clinical CG				
+I-H-118736-T1	I-H-118736	10.91		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118736-T2	I-H-118736	2.43		transformation		none	CG_PUB		NA		NA
+I-H-118737-T1	I-H-118737	28.14	tMN	transformation	"45,XY.-5.der(17)t(5;17)(p13;p11)"	fusion	clinical CG				
+I-H-118737-T1	I-H-118737	28.14	tMN	transformation	dic(5;17)(q11.2;p11.2)	fusion	CG_PUB	dic(5;17)	NA		TRUE
+I-H-118737-T1	I-H-118737	28.14	tMN	transformation	5q-	aneuploidy	CG_PUB	5q-	5	q	TRUE
+I-H-118737-T1	I-H-118737	28.14	tMN	transformation		aneuploidy	CG_PUB	17p-	17	p	TRUE
+I-H-118737-T2	I-H-118737	17.75		transformation		none	clinical CG				
+I-H-118737-T3	I-H-118737	24.26		transformation		none	CG_PUB		NA		NA
+I-H-118737-T4	I-H-118737	11.57		transformation		none	CG_PUB		NA		NA
+I-H-118738-T1	I-H-118738	44.08		transformation		none	CG_PUB		NA		NA
+I-H-118738-T2	I-H-118738	9.34		transformation		none	clinical CG				
+I-H-118738-T3	I-H-118738	21.63		transformation		none	clinical CG				
+I-H-118738-T4	I-H-118738	31.3		transformation		none	CG_PUB		NA		NA
+I-H-118738-T5	I-H-118738	41.55		transformation		none	CG_PUB		NA		NA
+I-H-118739-T2	I-H-118739	56.38		transformation	dup(1q25).del(6p)		clinical CG				
+I-H-118739-T2	I-H-118739	56.38		transformation	1q+	aneuploidy	CG_PUB	1q+	1	q	FALSE
+I-H-118739-T2	I-H-118739	56.38		transformation	6p-	aneuploidy	CG_PUB	6p-	6	p	FALSE
+I-H-118739-T3	I-H-118739			transformation		none	CG_PUB		NA		NA
+I-H-118739-T4	I-H-118739			transformation		none	CG_PUB		NA		NA
+I-H-118739-T5	I-H-118739			transformation		none	CG_PUB		NA		NA
+I-H-118739-T6	I-H-118739	50.13	premalignant	transformation	der(6)(t1;6)(q21;p21).dup(1q25).del(6p)	fusion	clinical CG				
+I-H-118739-T6	I-H-118739	50.13	premalignant	transformation	1q+	aneuploidy	CG_PUB	1q+	1	q	FALSE
+I-H-118739-T6	I-H-118739	50.13	premalignant	transformation	6p-	aneuploidy	CG_PUB	6p-	6	p	FALSE
+I-H-118739-T6	I-H-118739	50.13	premalignant	transformation	der(6)(t1;6)	fusion	CG_PUB	der(6)(t1;6)	NA		TRUE
+I-H-118739-T7	I-H-118739			transformation		none	CG_PUB		NA		NA
+I-H-118740-T5	I-H-118740			transformation		none	CG_PUB		NA		NA
+I-H-118740-T6	I-H-118740	59.66		transformation	7q-		clinical CG				
+I-H-118740-T6	I-H-118740	59.66		transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	TRUE
+I-H-118740-T7	I-H-118740			transformation		none	clinical CG				
+I-H-118740-T8	I-H-118740			transformation		none	CG_PUB		NA		NA
+I-H-118741-T1	I-H-118741	83.69	tMN	transformation	11q23 rearr	fusion	clinical CG				
+I-H-118741-T1	I-H-118741	83.69	tMN	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118741-T1	I-H-118741	83.69		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118741-T2	I-H-118741	10.59		transformation	monosomy 5		clinical CG				
+I-H-118741-T2	I-H-118741	10.59		transformation	5p-	aneuploidy	CG_PUB	5p-	5	p	FALSE
+I-H-118741-T2	I-H-118741	10.59		transformation	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-118741-T3	I-H-118741	41.62		transformation		none	CG_PUB		NA		NA
+I-H-118741-T4	I-H-118741	51.25		transformation		none	clinical CG				
+I-H-118741-T5	I-H-118741	69.4		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118741-T6	I-H-118741	0.69		transformation		none	CG_PUB		NA		NA
+I-H-118741-T7	I-H-118741	6.57		transformation	7p-	aneuploidy	CG_PUB	7p-	7	p	FALSE
+I-H-118741-T7	I-H-118741	6.57		transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-118741-T7	I-H-118741	6.57		transformation	monosomy 7		clinical CG				
+I-H-118741-T8	I-H-118741	21.86		transformation			clinical CG				
+I-H-118741-T8	I-H-118741	21.86		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118742-T1	I-H-118742	39.78	tMN	transformation	der(19)t(11;19)(q23;p13.1)t(18;19)(p11.2;q13.3).11q23-r	fusion	clinical CG				
+I-H-118742-T1	I-H-118742	39.78	tMN	transformation	t(18;19)(p11.2;q13.3)	fusion	CG_PUB	t(18;19)	NA		TRUE
+I-H-118742-T1	I-H-118742	39.78	tMN	transformation	11q23 rearr	fusion	CG_PUB	11q23 rearr	NA		TRUE
+I-H-118742-T1	I-H-118742	39.78		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118742-T2	I-H-118742	18.41		transformation	7q-		clinical CG				
+I-H-118742-T2	I-H-118742	18.41		transformation	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-118742-T3	I-H-118742	28.37		transformation	11q23 rearr	fusion	Archer	11q23 rearr			
+I-H-118742-T4	I-H-118742	13.31		transformation		none	CG_PUB		NA		NA
+I-H-133427-T1	I-H-133427			transient		none	CG_PUB		NA		NA
+I-H-133427-T2	I-H-133427			transient		none	clinical CG				
+I-H-133427-T3	I-H-133427	23.11	transient	transient	inv(17)(p13q23)	fusion	clinical CG				
+I-H-133427-T3	I-H-133427	23.11	transient	transient	inv(17)(p13q23)	fusion	CG_PUB	inv(17)	NA		TRUE
+I-H-133429-T1	I-H-133429			transient		none	CG_PUB		NA		NA
+I-H-133429-T2	I-H-133429			transient		none	CG_PUB		NA		NA
+I-H-133429-T3	I-H-133429			transient		none	CG_PUB		NA		NA
+I-H-133430-T1	I-H-133430	76.13		transient		none	clinical CG				
+I-H-133430-T2	I-H-133430	28.24		transient		none	CG_PUB		NA		NA
+I-H-133430-T3	I-H-133430	34.62		transient	"45XY,der(7)t(1;7)(q10;q10),-11"	fusion	clinical CG				
+I-H-133430-T3	I-H-133430	34.62		transient	-11	aneuploidy	CG_PUB	11p-	11	p	FALSE
+I-H-133430-T3	I-H-133430	34.62		transient	-11	aneuploidy	CG_PUB	11q-	11	q	FALSE
+I-H-133430-T3	I-H-133430	34.62		transient	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-133430-T3	I-H-133430	34.62		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133430-T3	I-H-133430	34.62		transient	der(1;7)(q10;q10)	fusion	CG_PUB	der(1;7)	NA		FALSE
+I-H-133430-T4	I-H-133430	53.78		transient		none	clinical CG				
+I-H-133430-T5	I-H-133430	70.09		transient	7q-		clinical CG				
+I-H-133430-T5	I-H-133430	70.09		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133431-T1	I-H-133431	6.25		transient		none	CG_PUB		NA		NA
+I-H-133431-T2	I-H-133431	12.23		transient		none	CG_PUB		NA		NA
+I-H-133431-T3	I-H-133431	81.1		transient	1q+		clinical CG				
+I-H-133431-T3	I-H-133431	81.1		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133431-T4	I-H-133431	1.25		transient		none	CG_PUB		NA		NA
+I-H-133431-T5	I-H-133431	34.85		transient		none	CG_PUB		NA		NA
+I-H-133431-T6	I-H-133431	45.13		transient	del(13q).dup(1q25)		clinical CG				
+I-H-133431-T6	I-H-133431	45.13		transient	13q-	aneuploidy	CG_PUB	13q-	13	q	TRUE
+I-H-133431-T6	I-H-133431	45.13		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133431-T7	I-H-133431	54.34		transient	1q+		clinical CG				
+I-H-133431-T7	I-H-133431	54.34		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133432-T1	I-H-133432			other	1q+		clinical CG				
+I-H-133432-T1	I-H-133432			other	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133432-T2	I-H-133432			other		none	clinical CG				
+I-H-133432-T3	I-H-133432	59.53		other	1q+		clinical CG				
+I-H-133432-T3	I-H-133432	59.53		other	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133432-T4	I-H-133432			other		none	CG_PUB		NA		NA
+I-H-133432-T5	I-H-133432	36.82		other	1q+		clinical CG				
+I-H-133432-T5	I-H-133432	36.82		other	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133433-T1	I-H-133433	11.51		transient		none	CG_PUB		NA		NA
+I-H-133433-T2	I-H-133433	18.44	transient	transient	der(6)t(3;6)(q23;p25)	fusion	clinical CG				
+I-H-133433-T2	I-H-133433	18.44	transient	transient	der(6)t(3;6)(q23;p25)	fusion	CG_PUB	der(6)t(3;6)	NA		TRUE
+I-H-133433-T4	I-H-133433	33.79	transient	transient	der(6)t(3;6)(q23;p25).monosomy 7	fusion	clinical CG	der(6)t(3;6)(q23;p25)			
+I-H-133433-T4	I-H-133433	33.79	transient	transient	der(6)t(3;6)(q23;p25)	fusion	CG_PUB	der(6)t(3;6)	NA		TRUE
+I-H-133433-T4	I-H-133433	33.79		transient	7p-	aneuploidy	CG_PUB	7p-	7	p	FALSE
+I-H-133433-T4	I-H-133433	33.79		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133433-T5	I-H-133433	48.95	transient	transient	der(6)t(3;6)(q23;p25).7q-	fusion	clinical CG				
+I-H-133433-T5	I-H-133433	48.95		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133433-T5	I-H-133433	48.95		transient	der(6)t(3;6)(q23;p25)	fusion	CG_PUB	der(6)t(3;6)	NA		TRUE
+I-H-133433-T6	I-H-133433	59.17		transient	8+		clinical CG				
+I-H-133433-T6	I-H-133433	59.17		transient	8+	aneuploidy	CG_PUB	8p+	8	p	FALSE
+I-H-133433-T6	I-H-133433	59.17		transient	8+	aneuploidy	CG_PUB	8q+	8	q	FALSE
+I-H-133434-T1	I-H-133434			transient		none	CG_PUB		NA		NA
+I-H-133434-T2	I-H-133434			transient		none	CG_PUB		NA		NA
+I-H-133434-T3	I-H-133434	28.17		transient	del(16)(q22)		clinical CG				
+I-H-133434-T3	I-H-133434	28.17		transient	16q-	aneuploidy	CG_PUB	16q-	16	q	TRUE
+I-H-133435-T1	I-H-133435			transient		none	clinical CG				
+I-H-133435-T2	I-H-133435	40.83		transient	der(15)t(1;15)(q11;p11).dup(1q25)		clinical CG				
+I-H-133435-T2	I-H-133435	40.83		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133435-T2	I-H-133435	40.83		transient	der(15)t(1;15)	fusion	CG_PUB	der(15)t(1;15)	NA		TRUE
+I-H-133435-T3	I-H-133435			transient		none	clinical CG				
+I-H-133435-T4	I-H-133435	30.97		transient	der(15)t(1;15)(q11;p11).dup(1q25)		clinical CG				
+I-H-133435-T4	I-H-133435	30.97		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133435-T4	I-H-133435	30.97		transient	der(15)t(1;15)	fusion	CG_PUB	der(15)t(1;15)	NA		TRUE
+I-H-133435-T5	I-H-133435			transient		none	CG_PUB		NA		NA
+I-H-133436-T1	I-H-133436	34.68		transient	del(20q)		clinical CG				
+I-H-133436-T1	I-H-133436	34.68		transient	20q-	aneuploidy	CG_PUB	20q-	20	q	FALSE
+I-H-133436-T2	I-H-133436			transient		none	CG_PUB		NA		NA
+I-H-133436-T3	I-H-133436			transient		none	CG_PUB		NA		NA
+I-H-133436-T4	I-H-133436			transient		none	clinical CG				
+I-H-133436-T5	I-H-133436			transient		none	clinical CG				
+I-H-133436-T6	I-H-133436	54.21		transient	del(20q)		clinical CG				
+I-H-133436-T6	I-H-133436	54.21		transient	20q-	aneuploidy	CG_PUB	20q-	20	q	FALSE
+I-H-133437-T1	I-H-133437			transient		none	CG_PUB		NA		NA
+I-H-133437-T2	I-H-133437			transient		none	CG_PUB		NA		NA
+I-H-133437-T3	I-H-133437			transient		none	CG_PUB		NA		NA
+I-H-133437-T4	I-H-133437			transient		none	CG_PUB		NA		NA
+I-H-133437-T5	I-H-133437	23.04	transient	transient	t(2;16)(q31;q22).t(6;10)(q21;p13).+16	fusion	clinical CG				
+I-H-133437-T5	I-H-133437	23.04	transient	transient	t(6;10)	fusion	CG_PUB	t(6;10)	NA		TRUE
+I-H-133437-T5	I-H-133437	23.04		transient	16+	aneuploidy	CG_PUB	16p+	16	p	TRUE
+I-H-133437-T5	I-H-133437	23.04		transient	16+	aneuploidy	CG_PUB	16q+	16	q	TRUE
+I-H-133437-T5	I-H-133437	23.04		transient	t(2;16)	fusion	CG_PUB	t(2;16)	NA		TRUE
+I-H-133522-T1	I-H-133522			transient		none	clinical CG				
+I-H-133522-T2	I-H-133522			transient		none	CG_PUB		NA		NA
+I-H-133522-T3	I-H-133522	32.84		transient	dup(1q25)		clinical CG				
+I-H-133522-T3	I-H-133522	32.84		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133522-T4	I-H-133522	47.37		transient	dup(1q25)		clinical CG				
+I-H-133522-T4	I-H-133522	47.37		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133522-T5	I-H-133522	55.16		transient	dup(1q25)		clinical CG				
+I-H-133522-T5	I-H-133522	55.16		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	TRUE
+I-H-133522-T6	I-H-133522	67.85		transient	dup(1q25)		clinical CG				
+I-H-133522-T6	I-H-133522	67.85		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	FALSE
+I-H-133522-T7	I-H-133522			transient		none	clinical CG				
+I-H-133522-T8	I-H-133522			transient		none	CG_PUB		NA		NA
+I-H-133522-T9	I-H-133522	94.97		transient	del(13q).dup(1q25).monosomy 5.5q-.monosomy 7.7q-.loss MLL.del(20q)		clinical CG				
+I-H-133522-T9	I-H-133522	94.97		transient	13q-	aneuploidy	CG_PUB	13q-	13	q	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	1q+	aneuploidy	CG_PUB	1q+	1	q	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	20q-	aneuploidy	CG_PUB	20q-	20	q	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	5p-	aneuploidy	CG_PUB	5p-	5	p	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	5q-	aneuploidy	CG_PUB	5q-	5	q	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	7p-	aneuploidy	CG_PUB	7p-	7	p	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133522-T9	I-H-133522	94.97		transient	del(MLL)	aneuploidy	CG_PUB	del(MLL)	d		FALSE
+I-H-133523-T1	I-H-133523			transient		none	CG_PUB		NA		NA
+I-H-133523-T2	I-H-133523			transient		none	clinical CG				
+I-H-133523-T3	I-H-133523			transient		none	CG_PUB		NA		NA
+I-H-133523-T4	I-H-133523	33.46		transient	7q-		clinical CG				
+I-H-133523-T4	I-H-133523	33.46		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
+I-H-133523-T5	I-H-133523			transient		none	clinical CG				
+I-H-133523-T6	I-H-133523	51.02		transient	7q-		clinical CG				
+I-H-133523-T6	I-H-133523	51.02		transient	7q-	aneuploidy	CG_PUB	7q-	7	q	FALSE
